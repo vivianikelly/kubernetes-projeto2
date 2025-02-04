@@ -14,5 +14,5 @@ kubectl apply -f ./nodeport.yml
 
 echo "Criando os deployments..."
 
-kubectl apply -f .\mysql-deployment.yml --record
-kubectl apply -f .\app-deployment.yml --record
+kubectl apply -f mysql-deployment.yml --record
+kubectl apply -f app-deployment.yml --record
